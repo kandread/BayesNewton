@@ -43,7 +43,7 @@ from .ops import (
     blockdiagmatrix_to_blocktensor
 )
 import math
-from jax.config import config
+import jax.config as config
 config.update("jax_enable_x64", True)
 
 LOG2PI = math.log(2 * math.pi)
