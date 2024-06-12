@@ -44,7 +44,7 @@ from .ops import (
 )
 import math
 import jax.config as config
-config.update("jax_enable_x64", True)
+jax.config.update("jax_enable_x64", True)
 
 LOG2PI = math.log(2 * math.pi)
 
