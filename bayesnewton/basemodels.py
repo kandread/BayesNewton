@@ -1,4 +1,5 @@
 import objax
+import jax
 import jax.numpy as np
 from .likelihoods import Gaussian, MultiLatentLikelihood
 from .kernels import Independent, Separable
